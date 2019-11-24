@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a4e8793-c493-47de-9ff5-b6a6253aa353" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/1KNN/Test6KFold.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/1KNN/Test7KFold.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/AILearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AILearning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloWord/.idea/helloWord.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloWord/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloWord/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloWord/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloWord/Test1_LinearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/0helloWord/Test1_LinearRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloWord/Test2_LinearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/0helloWord/Test2_LinearRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloWord/Test3_KNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/1KNN/Test3_KNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloWord/Test4_KNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/1KNN/Test4_KNN.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloWord/Test5_KNN.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/1KNN/Test5_KNN.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,7 +24,17 @@
     <SUITE FILE_PATH="coverage/AILearning$Test5_KNN.coverage" NAME="Test5_KNN Coverage Results" MODIFIED="1574582948990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/helloWord" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Test7KFold.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/code/1KNN/Test7KFold.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="81" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="21" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,6 +55,8 @@
         <option value="$PROJECT_DIR$/helloWord/Test4_KNN.py" />
         <option value="$PROJECT_DIR$/helloWord/Test2_LinearRegression.py" />
         <option value="$PROJECT_DIR$/helloWord/Test5_KNN.py" />
+        <option value="$PROJECT_DIR$/code/1KNN/Test6KFold.py" />
+        <option value="$PROJECT_DIR$/code/1KNN/Test7KFold.py" />
       </list>
     </option>
   </component>
@@ -77,7 +83,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,12 +104,19 @@
             <path>
               <item name="AILearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="AILearning" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="1KNN" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AILearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AILearning" type="462c0819:PsiDirectoryNode" />
               <item name="result" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -115,13 +127,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\YEYILING\Desktop\AILearning\code\1KNN" />
+      <recent name="C:\Users\YEYILING\Desktop\AILearning\helloWord" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\YEYILING\Desktop\AILearning\code\1KNN" />
       <recent name="C:\Users\YEYILING\Desktop\AILearning\code\0helloWord" />
       <recent name="C:\Users\YEYILING\Desktop\AILearning\code" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\YEYILING\Desktop\AILearning\helloWord" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -136,26 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Test2_LinearRegression">
-    <configuration name="Test2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AILearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/helloWord" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\YEYILING\Desktop\AILearning\code\0helloWord\Test2_LinearRegression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.Test7KFold">
     <configuration name="Test2_LinearRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="AILearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -170,25 +164,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\YEYILING\Desktop\AILearning\code\0helloWord\Test2_LinearRegression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Test3" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="AILearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/helloWord" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\YEYILING\Desktop\AILearning\code\1KNN\Test3_KNN.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -232,20 +207,58 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Test6KFold" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AILearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/1KNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/1KNN/Test6KFold.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Test7KFold" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AILearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code/1KNN" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/1KNN/Test7KFold.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Test2" />
-      <item itemvalue="Python.Test3" />
       <item itemvalue="Python.Test4_KNN" />
       <item itemvalue="Python.Test2_LinearRegression" />
       <item itemvalue="Python.Test5_KNN" />
+      <item itemvalue="Python.Test6KFold" />
+      <item itemvalue="Python.Test7KFold" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Test7KFold" />
+        <item itemvalue="Python.Test6KFold" />
         <item itemvalue="Python.Test5_KNN" />
         <item itemvalue="Python.Test4_KNN" />
         <item itemvalue="Python.Test2_LinearRegression" />
-        <item itemvalue="Python.Test3" />
-        <item itemvalue="Python.Test2" />
       </list>
     </recent_temporary>
   </component>
@@ -263,29 +276,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="761" y="-7" width="782" height="838" extended-state="0" />
+    <frame x="760" y="-8" width="783" height="839" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32596686" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31640625" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="SciView" weight="0.32857144" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" x="0" y="0" width="145" height="639" id="Documentation" side_tool="true" weight="0.32899868" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.32965517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32551724" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3159948" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32857144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,14 +310,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/helloWord/firstProgram.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/helloWord/firstProgram.md" />
     <entry file="file://$PROJECT_DIR$/code/1KNN/Test3_KNN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-192">
@@ -341,6 +349,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/1KNN/Test6KFold.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/1KNN/Test7KFold.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="81" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="21" selection-end-column="81" />
         </state>
       </provider>
     </entry>
